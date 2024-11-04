@@ -14,9 +14,6 @@ orgs.newOrg('eclipse-sommr') {
       delete_branch_on_merge: false,
       description: "Automotive sommr project",
       web_commit_signoff_required: false,
-      workflows+: {
-        default_workflow_permissions: "read",
-      },
     },
     orgs.newRepo('sommr-website') {
       allow_merge_commit: true,
@@ -24,9 +21,6 @@ orgs.newOrg('eclipse-sommr') {
       delete_branch_on_merge: false,
       description: "Automotive sommr project website.",
       web_commit_signoff_required: false,
-      workflows+: {
-        default_workflow_permissions: "read",
-      },
     },
   ],
 }
