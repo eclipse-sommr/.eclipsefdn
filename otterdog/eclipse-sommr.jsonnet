@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-sommr') {
+orgs.newOrg('automotive.sommr', 'eclipse-sommr') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
